@@ -7,6 +7,6 @@
 <body>
   <h1>Le HTML 5</h1>
   <p>Le langage HTML, c'est fantastique.</p>
-  <a href="Page 2.html" title="Page suivante">Cliquez ici</a>  
+  <a href="Page 2.html" title="Page suivante">Cliquez ici</a>  <!-- bouton de switch page -->
 </body>
 </html>
