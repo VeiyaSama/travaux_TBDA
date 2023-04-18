@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="fr"> <!--langue choisie pour la page web-->
+    <head>
+        <meta charset="utf-8">
+        <title>Ma première page en HTML 5</title> <!--Titre de la page -->
+    </head>
+    <body>
+        <h1>Les Média dans Html</h1>
+        <p>Exo1</p> 
+        <img src="https://ncode.amorce.org/ressources/Pool/TB_DEV/WEB_HTML/Exercices/images/logo_windows.jpg"> Logo Jarditou
+     </body>
+</html>

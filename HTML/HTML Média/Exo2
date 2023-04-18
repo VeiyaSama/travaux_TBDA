@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="fr"> <!--langue choisie pour la page web-->
+    <head>
+        <meta charset="utf-8">
+        <title>Ma première page en HTML 5</title> <!--Titre de la page -->
+    </head>
+    <body>
+        <h1>Les Média dans Html</h1>
+        <p>Exo2</p> 
+        <video width="400" height="222" controls="controls">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MuFryJD2wTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </video>
+     </body>
+</html>
