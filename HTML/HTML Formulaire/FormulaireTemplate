@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr"> <!--langue choisie pour la page web-->
+    <head>
+        <meta charset="utf-8">
+        <title>Ma première page en HTML 5</title> <!--Titre de la page -->
+    </head>
+    <body>
+        <h1>Les Formulaire</h1>
+        <p>Formulaire d'inscription</p> 
+            <form action="destination.php" method="post"> 
+                <label for="nom">Nom:</label>
+                    <input type="text" name="nom">
+                <label for="nom">Prénom:</label> 
+                    <input type="text" name="prenom" placeholder="Entrez votre prénom" pattern="^[a-z]+$" required title="Entrez votre nom (que des caractères entre a et z)">
+                    <br><input type="submit" value="Envoyer"> </br>
+                        <input type="radio" name="couleur" value="Bleu"> Bleu 
+                        <input type="radio" name="couleur" value="Rouge"> Rouge 
+                        <input type="radio" name="couleur" value="Vert" checked> Vert
+                            <br><textarea name="commentaire" rows="10" cols="50"></textarea></br>
+                                <label for="couleur">Choisissez votre couleur</label>
+                                    <select id="couleur" size="3"> 
+                                        <option value="" selected>-</option>
+                                        <option value="Bleu">Bleu</option>
+                                        <option value="Rouge">Rouge</option>
+                                        <option value="Vert">Vert</option>
+                                        <option value="Jaune">Jaune</option>
+                                        <option value="Blanc">Blanc</option>
+                                    </select>
+            </form>
+            <form action="destination.php" method="post" enctype="multipart/form-data">
+                <input type="file" name="fichier" accept="image/png">
+            </form>
+
+            <fieldset>
+                <legend>Coordonnées</legend>
+                <label for="nom">Nom:</label><input type="text" name="nom" id="?"><br>
+                <label for="?">Email:</label><input type="email" name="email"><br>
+                <label for="date">Date de naissance:</label><input type="date" name="ddn" id="date">
+               </fieldset>
+
+               <label for="metiers2">Sélectionnez votre métier</label>
+                    <input type="text" name="metiers1" id="metiers2" list="metiers3">
+                    <datalist id="metiers3">
+                        <option value="webmaster">
+                        <option value="développeur">
+                        <option value="administrateur B.D.D.">
+                        <option value="webdesigner">
+                    </datalist>
+    </body>
+</html>
