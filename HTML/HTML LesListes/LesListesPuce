@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr"> <!--langue choisie pour la page web-->
+<head>
+  <meta charset="utf-8">
+  <title>Ma première page en HTML 5</title> <!--Titre de la page -->
+</head>
+<body>
+  <h1>Les Listes</h1>
+  <p>Les Listes Pucées</p> 
+    <ul type="disc">
+        <li>Souris</li>
+        <li>Chiens</li>
+          <ul type="circle">
+              <li>Bassets</li>
+              <li>Caniches</li>
+          </ul>  
+        <li>Félins</li>
+          <ul type="circle">
+            <li>Lion</li>
+            <li>Tigre</li>
+            <li>Chats</li>
+            <ul type="square">
+              <li>Chats sauvage</li>
+              <li>Chats domestiques</li>
+            </ul>
+          </ul>  
+        <li>Chevaux</li>
+    </ul>
+  </body>
+</html>
