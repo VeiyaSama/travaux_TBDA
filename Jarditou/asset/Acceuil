@@ -14,9 +14,9 @@
       <h1>La qualité depuis 70ans</h1>
       <div>
             <ul type="circle">
-                  <li><a href="Acceuil" title="Acceuil">Acceuil</a></li>
-                  <li><a href="Tableau" title="Tableau">Tableau</a></li>
-                  <li><a href="Contact" title="Contact">Contact</a></li>
+                  <li><a href="Acceuil" title="Acceuil">Acceuil</a></li><br>
+                  <li><a href="Tableau" title="Tableau">Tableau</a></li><br>
+                  <li><a href="Contact" title="Contact">Contact</a></li><br>
                   <br>
             </ul>
       </div>

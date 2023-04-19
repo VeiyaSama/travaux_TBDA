@@ -1,66 +1,71 @@
 <!DOCTYPE html>
 <html lang="fr"> <!--langue choisie pour la page web-->
+
 <head>
-  <meta charset="utf-8">
-  <title>Ma première page en HTML 5</title> <!--Titre de la page -->
-  <link rel="stylesheet" href="../css/jarditou.css">
+    <meta charset="utf-8">
+    <title>Ma première page en HTML 5</title> <!--Titre de la page -->
+    <link rel="stylesheet" href="../css/jarditou.css">
 </head>
+
 <body>
     <img class="logo"
-    src="/home/stagiaire/Bureau/travaux_TBDA/Jarditou/asset/jarditou_html_zip/images/jarditou_logo.jpg">
+        src="/home/stagiaire/Bureau/travaux_TBDA/Jarditou/asset/jarditou_html_zip/images/jarditou_logo.jpg">
     <h1>La qualité depuis 70ans</h1>
-    <ul type="circle">
-        <li><a href="Acceuil" title="Acceuil">Acceuil</a></li><br>
-        <li><a href="Tableau" title="Tableau">Tableau</a></li><br>
-        <li><a href="Contact" title="Contact">Contact</a></li><br>
-    
-                <br><img class="promo"
-                src="/home/stagiaire/Bureau/travaux_TBDA/Jarditou/asset/jarditou_html_zip/images/promotion.jpg">
+    <div>
+        <ul type="circle">
+            <li><a href="Acceuil" title="Acceuil">Acceuil</a></li><br>
+            <li><a href="Tableau" title="Tableau">Tableau</a></li><br>
+            <li><a href="Contact" title="Contact">Contact</a></li><br>
+    </div>
+
+    <br><img class="promo"
+        src="/home/stagiaire/Bureau/travaux_TBDA/Jarditou/asset/jarditou_html_zip/images/promotion.jpg">
     </ul>
     <h1>Contact</h1>
+    <fieldset>
+        <br><label for="nom">*Ces zones sont obligatoire</label>
+        <br><br>
         <fieldset>
-            <br><label for="nom">*Ces zones sont obligatoire</label>
-            <br><br>
-            <fieldset>
-                 <legend>Coordonnées</legend>
-                <label for="nom">Votre Nom*:</label><input type="text" name="nom" id="?"><br>
-                <label for="nom">Votre Prénom*:</label><input type="text" name="prénom" id="?"><br>
-                    <br><label for="sexe">Sexe*:
-                        <input type="radio" name="sexe" value="Homme"> Homme
-                        <input type="radio" name="sexe" value="Femme"> Femme 
-                        </label><br>
-                    <br><label for="date">Date de naissance*:</label><input type="date" name="ddn" id="date"><br>
-                <label for="CP">Code Postale*:</label><input type="CP" name="CP" id="CP">
-                <label for="adrss">Adresse:</label><input type="adresse" name="adresse"><br>
-                <label for="ville">Ville:</label><input type="ville" name="ville"><br>
-                <label for="?">Email*:</label><input type="email" name="email"><br>
-                </fieldset>
-                <fieldset>
-                    <legend>Votre demande</legend>
-                    <label for="sujet">Sujet*: 
-                    <select id="demande" size="3"> 
-                        <option value="" selected>Veuillez séléctionner un sujet</option>
-                        <option value="Mes commandes">Mes commandes</option>
-                        <option value="Question sur un produit">Question sur un produit</option>
-                        <option value="Réclamation">Réclamation</option>
-                        <option value="Autres">Autres</option><br>
-                        </label>
+            <legend>Coordonnées</legend>
+            <label for="nom">Votre Nom*:</label><input type="text" name="nom" id="?"><br>
+            <label for="nom">Votre Prénom*:</label><input type="text" name="prénom" id="?"><br>
+            <br><label for="sexe">Sexe*:
+                <input type="radio" name="sexe" value="Homme"> Homme
+                <input type="radio" name="sexe" value="Femme"> Femme
+            </label><br>
+            <br><label for="date">Date de naissance*:</label><input type="date" name="ddn" id="date"><br>
+            <label for="CP">Code Postale*:</label><input type="CP" name="CP" id="CP">
+            <label for="adrss">Adresse:</label><input type="adresse" name="adresse"><br>
+            <label for="ville">Ville:</label><input type="ville" name="ville"><br>
+            <label for="?">Email*:</label><input type="email" name="email"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Votre demande</legend>
+            <label for="sujet">Sujet*:
+                <select id="demande" size="3">
+                    <option value="" selected>Veuillez séléctionner un sujet</option>
+                    <option value="Mes commandes">Mes commandes</option>
+                    <option value="Question sur un produit">Question sur un produit</option>
+                    <option value="Réclamation">Réclamation</option>
+                    <option value="Autres">Autres</option><br>
+            </label>
 
-                    </select><br>
-                        <label for="Question">Votre question*:
-                             <textarea name="commentaire" rows="3" cols="20"></textarea>
+            </select><br>
+            <label for="Question">Votre question*:
+                <textarea name="commentaire" rows="3" cols="20"></textarea>
 
-                        </label>
+            </label>
 
-            
-                </fieldset>
-                <input type="checkbox" name="agree" value="agree"> *J'accepte le traitrement informatique de ce formulaire<br>
-                <button>Envoyer</button><button>Annuler</button>
-                <ul type="circle">
-                    <li><a href="MentionLegal" title="Mention légales">Mention légales</a></li><br>
-                    <li><a href="Horaire" title="Horaires">Horaires</a></li><br>
-                    <li><a href="PlanSite" title="Plan du site">Plan du site</a></li><br>
-                </ul>
-            </fieldset>
-  </body>
+
+        </fieldset>
+        <input type="checkbox" name="agree" value="agree"> *J'accepte le traitrement informatique de ce formulaire<br>
+        <button>Envoyer</button><button>Annuler</button>
+        <ul type="circle">
+            <li><a href="MentionLegal" title="Mention légales">Mention légales</a></li><br>
+            <li><a href="Horaire" title="Horaires">Horaires</a></li><br>
+            <li><a href="PlanSite" title="Plan du site">Plan du site</a></li><br>
+        </ul>
+    </fieldset>
+</body>
+
 </html>
