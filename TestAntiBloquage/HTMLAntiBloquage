@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr"> <!--langue choisie pour la page web-->
+<head>
+  <meta charset="utf-8">
+  <title>Ma première page en HTML 5</title> <!--Titre de la page -->
+  <link rel="stylesheet" href="CSSAntiBloquage">
+</head>
+<body>
+  <h1>Le HTML 5</h1>
+  <p>Le langage HTML, c'est fantastique.</p>
+    <div class="parent">
+      <div class="box" id="one">One</div>
+      <div class="box" id="two">Two</div>
+      <div class="box" id="three">Three</div>
+      <div class="box" id="four">Four</div>
+   </div> 
+  </body>
+</html>
