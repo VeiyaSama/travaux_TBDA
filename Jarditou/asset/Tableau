@@ -10,12 +10,11 @@
 <body>
     <img class="logo"
         src="/home/stagiaire/Bureau/travaux_TBDA/Jarditou/asset/jarditou_html_zip/images/jarditou_logo.jpg">
-    <h1>La qualité depuis 70ans</h1>
     <div>
         <ul type="circle">
-            <li><a href="Acceuil" title="Acceuil">Acceuil</a></li><br>
-            <li><a href="Tableau" title="Tableau">Tableau</a></li><br>
-            <li><a href="Contact" title="Contact">Contact</a></li><br>
+            <li><a href="Acceuil" title="Acceuil">Acceuil</a></li>
+            <li><a href="Tableau" title="Tableau">Tableau</a></li>
+            <li><a href="Contact" title="Contact">Contact</a></li>
     </div>
 
     <br><img class="promo"
@@ -80,9 +79,9 @@
     </table>
     <div>
         <ul type="circle">
-            <li><a href="MentionLegal" title="Mention légales">Mention légales</a></li><br>
-            <li><a href="Horaire" title="Horaires">Horaires</a></li><br>
-            <li><a href="PlanSite" title="Plan du site">Plan du site</a></li><br>
+            <li><a href="MentionLegal" title="Mention légales">Mention légales</a></li>
+            <li><a href="Horaire" title="Horaires">Horaires</a></li>
+            <li><a href="PlanSite" title="Plan du site">Plan du site</a></li>
         </ul>
     </div>
 </body>
