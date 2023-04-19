@@ -1,0 +1,37 @@
+<!-- Code HTML -->
+<html>
+    <head> 
+        <title>Titre du fichier</title> 
+        <link rel="stylesheet" href="CssTemplate"> 
+        <style>
+            .one {
+            color: red;
+            }
+            </style>
+
+                <div></div>
+                <p></p>
+                <footer></footer>
+                <h1></h1>
+                <h2></h2>
+                <article></article>
+                <span></span>
+                <em></em>
+                <strong></strong>
+                <mark></mark>
+                <a></a>
+                <img>
+                
+    </head>
+    <body>
+        <h1>Vive Css</h1>
+      <p>J’adore le <strong>CSS</strong></p> 
+      <p class="one">texte</p>
+      <div class="parent">
+                    <div class="box" id="one">One</div>
+                    <div class="box" id="two">Two</div>
+                    <div class="box" id="three">Three</div>
+                    <div class="box" id="four">Four</div>
+                   </div>
+    </body>
+</html> 
