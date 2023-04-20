@@ -4,12 +4,13 @@
 <head>
     <meta charset="utf-8">
     <title>Ma première page en HTML 5</title> <!--Titre de la page -->
-    <link rel="stylesheet" href="../css/jarditou.css">
+    <link rel="stylesheet" href="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/css/jarditou.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
 <body>
     <img class="logo"
-        src="/home/stagiaire/Bureau/travaux_TBDA/Jarditou/asset/jarditou_html_zip/images/jarditou_logo.jpg">
+        src="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/img/jarditou_photos/jarditou_logo.jpg">
     <div>
         <ul type="circle">
             <li><a href="Acceuil" title="Acceuil">Acceuil</a></li>
@@ -18,7 +19,7 @@
     </div>
 
     <br><img class="promo"
-        src="/home/stagiaire/Bureau/travaux_TBDA/Jarditou/asset/jarditou_html_zip/images/promotion.jpg">
+        src="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/img/jarditou_photos/promotion.jpg">
     </ul>
     <h1>Contact</h1>
     <fieldset>

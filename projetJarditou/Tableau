@@ -4,12 +4,16 @@
 <head>
     <meta charset="utf-8">
     <title>Jarditou</title> <!--Titre de la page -->
-    <link rel="stylesheet" href="../css/jarditou.css">
+    <link rel="stylesheet" href="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/css/jarditou.css">
+    <link rel="stylesheet" media="screen and (max-width: 575px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 576px)" href="tablette.css">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" href="desktop.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
 <body>
     <img class="logo"
-        src="/home/stagiaire/Bureau/travaux_TBDA/Jarditou/asset/jarditou_html_zip/images/jarditou_logo.jpg">
+        src="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/img/jarditou_photos/jarditou_logo.jpg">
     <div>
         <ul type="circle">
             <li><a href="Acceuil" title="Acceuil">Acceuil</a></li>
@@ -18,7 +22,7 @@
     </div>
 
     <br><img class="promo"
-        src="/home/stagiaire/Bureau/travaux_TBDA/Jarditou/asset/jarditou_html_zip/images/promotion.jpg">
+        src="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/img/jarditou_photos/promotion.jpg">
 
     </ul>
     <h2>Tableau</h2>
@@ -33,7 +37,7 @@
                 <td><b>Couleur</b></td>
             </tr>
             <tr>
-                <td><img src="/home/stagiaire/Bureau/travaux_TBDA/HTML/HTML Tableau/jarditou_html_zip/jarditou_photos/7.jpg"
+                <td><img src="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/img/jarditou_photos/7.jpg"
                         width="100" height="100" /></td>
                 <td>7</td>
                 <td>Barbecues</td>
@@ -42,7 +46,7 @@
                 <td>Brun</td>
             </tr>
             <tr>
-                <td><img src="/home/stagiaire/Bureau/travaux_TBDA/HTML/HTML Tableau/jarditou_html_zip/jarditou_photos/8.jpg"
+                <td><img src="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/img/jarditou_photos/8.jpg"
                         width="100" height="100" /></td>
                 <td>8</td>
                 <td>Barbecues</td>
@@ -50,7 +54,7 @@
                 <td>249.99€</td>
                 <td>Noir</td>
             </tr>
-            <td><img src="/home/stagiaire/Bureau/travaux_TBDA/HTML/HTML Tableau/jarditou_html_zip/jarditou_photos/11.jpg"
+            <td><img src="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/img/jarditou_photos/11.jpg"
                     width="100" height="100" /></td>
             <td>11</td>
             <td>Barbecues</td>
@@ -59,7 +63,7 @@
             <td>Chrome</td>
             </tr>
             <tr>
-                <td><img src="/home/stagiaire/Bureau/travaux_TBDA/HTML/HTML Tableau/jarditou_html_zip/jarditou_photos/12.jpg"
+                <td><img src="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/img/jarditou_photos/12.jpg"
                         width="100" height="100" /></td>
                 <td>12</td>
                 <td>Barbecues</td>
@@ -68,7 +72,7 @@
                 <td>Noir</td>
             </tr>
             <tr>
-                <td><img src="/home/stagiaire/Bureau/travaux_TBDA/Jarditou/asset/jarditou_html_zip/jarditou_photos/7.jpg"
+                <td><img src="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/img/jarditou_photos/13.jpg"
                         width="100" height="100" /></td>
                 <td>13</td>
                 <td>Brouette</td>
