@@ -2,7 +2,8 @@
 <html lang="fr"> <!--langue choisie pour la page web-->
     <head>
         <meta charset="utf-8">
-        <title>Ma première page en HTML 5</title> <!--Titre de la page -->
+        <title>Html Média
+        </title> <!--Titre de la page -->
     </head>
     <body>
         <h1>Les Média dans Html</h1>

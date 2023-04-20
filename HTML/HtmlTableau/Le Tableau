@@ -2,7 +2,7 @@
 <html lang="fr"> <!--langue choisie pour la page web-->
     <head>
         <meta charset="utf-8">
-        <title>Ma première page en HTML 5</title> <!--Titre de la page -->
+        <title>Html Tableau</title> <!--Titre de la page -->
     </head>
     <body>
         <h1>Les Tableaux Html</h1>
@@ -18,7 +18,7 @@
                     <td><b>Couleur</b></td>
                 </tr>
                 <tr>
-                    <td><img src="/home/stagiaire/Bureau/travaux_TBDA/HTML/HTML Tableau/jarditou_html_zip/jarditou_photos/7.jpg"
+                    <td><img src="jarditou_html_zip/jarditou_photos/7.jpg"
                         width="100" 
                         height="100" /></td>
                     <td>7</td>
@@ -28,7 +28,7 @@
                     <td>Brun</td>
                 </tr>
                 <tr>
-                    <td><img src="/home/stagiaire/Bureau/travaux_TBDA/HTML/HTML Tableau/jarditou_html_zip/jarditou_photos/8.jpg"
+                    <td><img src="jarditou_html_zip/jarditou_photos/8.jpg"
                         width="100" 
                         height="100" /></td>
                     <td>8</td>
@@ -37,7 +37,7 @@
                     <td>249.99€</td>
                     <td>Noir</td>
                 </tr>
-                    <td><img src="/home/stagiaire/Bureau/travaux_TBDA/HTML/HTML Tableau/jarditou_html_zip/jarditou_photos/11.jpg"
+                    <td><img src="jarditou_html_zip/jarditou_photos/11.jpg"
                         width="100" 
                         height="100" /></td>
                     <td>11</td>
@@ -47,7 +47,7 @@
                     <td>Chrome</td>
                 </tr>
                 <tr>
-                    <td><img src="/home/stagiaire/Bureau/travaux_TBDA/HTML/HTML Tableau/jarditou_html_zip/jarditou_photos/12.jpg"
+                    <td><img src="jarditou_html_zip/jarditou_photos/12.jpg"
                         width="100" 
                         height="100" /></td>
                     <td>12</td>
@@ -57,7 +57,7 @@
                     <td>Noir</td>
                 </tr>
                 <tr>
-                    <td><img src="/home/stagiaire/Bureau/travaux_TBDA/HTML/HTML Tableau/jarditou_html_zip/jarditou_photos/7.jpg"
+                    <td><img src="jarditou_html_zip/jarditou_photos/7.jpg"
                         width="100" 
                         height="100" /></td>
                     <td>13</td>
