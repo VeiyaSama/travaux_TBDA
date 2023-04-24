@@ -74,14 +74,23 @@ h2 {
 }
 .footer{
     display: flex;
-    text-align: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-weight: bold;
-    background-color: black;
-    color: lightblue;
-    justify-content:  space-around;
+    justify-content: center;
+         margin: auto;
+         letter-spacing: 5px;
+         text-transform: uppercase;
+         font-weight: bold;
+         background-color: black;
+         color: lightblue;
     }
+    .footer ul {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .footer a{
+        margin-left: 20px;
+    }
+        
 
 
 body{
@@ -139,21 +148,32 @@ html {
 @media screen and (max-width: 768px) {
 
     body{
-        background: #0cbd59;
+        background: white;
     }
 
     h1 {
         font-size: 20px;
-        background: #f61616;
+        background: lightblue;
     }
     .footer{
         text-align: center;
         letter-spacing: 3px;
         text-transform: uppercase;
         font-weight: bold;
-
-
     }
+
+    .footer ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer li{
+        margin-bottom: 10px;
+    } 
+    .footer li a {
+        margin: auto;
+    }
+
     article{
         width: auto;
         width: 100%;
