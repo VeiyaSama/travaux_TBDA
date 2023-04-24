@@ -9,61 +9,68 @@
 </head>
 
 <body>
-    <img class="logo"
+    <img class="logo" alt="LogoJarditou"
         src="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/img/jarditou_photos/jarditou_logo.jpg">
     <div class="header">
-        <ul type="circle">
+        <ul>
             <li><a href="index.html" title="Acceuil">Acceuil</a></li>
             <li><a href="tableau.html" title="Tableau">Tableau</a></li>
             <li><a href="contact.html" title="Contact">Contact</a></li>
+        </ul>
     </div>
 
-    <br><img class="promo"
+    <br><img class="promo" alt="PhotoPromotion"
         src="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/img/jarditou_photos/promotion.jpg">
-    </ul>
     <h1>Contact</h1>
     <fieldset>
-        <br><label for="nom">*Ces zones sont obligatoire</label>
+        <form>
+            <br><label for="nom">*Ces zones sont obligatoire</label>
+        </form>
         <br><br>
         <fieldset>
             <legend>Coordonnées</legend>
-            <label for="nom">Votre Nom*:</label><input type="text" name="nom" id="?"><br>
-            <label for="nom">Votre Prénom*:</label><input type="text" name="prénom" id="?"><br>
-            <br><label for="sexe">Sexe*:
-                <input type="radio" name="sexe" value="Homme"> Homme
-                <input type="radio" name="sexe" value="Femme"> Femme
-            </label><br>
-            <br><label for="date">Date de naissance*:</label><input type="date" name="ddn" id="date"><br>
-            <label for="CP">Code Postale*:</label><input type="CP" name="CP" id="CP">
-            <label for="adrss">Adresse:</label><input type="adresse" name="adresse"><br>
-            <label for="ville">Ville:</label><input type="ville" name="ville"><br>
-            <label for="?">Email*:</label><input type="email" name="email"><br>
+            <form>
+                <label for="nom">Votre Nom*:</label><input type="text" name="nom" id="nom"><br>
+                <label for="prénom">Votre Prénom*:</label><input type="text" name="prénom" id="prénom"><br>
+                <br><label for="sexe">Sexe*:
+                    <input type="homme" name="sexe" id="homme"> Homme
+                    <input type="femmme" name="sexe"  id="femme"> Femme
+                </label><br>
+            </form>
+            <form>
+                <br><label for="date">Date de naissance*:</label><input type="date" name="ddn" id="date"><br>
+                <label for="CP">Code Postale*:</label><input type="CodeP" name="CodeP" id="CP">
+                <label for="adrss">Adresse:</label><input type="adresse" name="adrss"><br>
+                <label for="ville">Ville:</label><input type="ville"  name="ville"><br>
+                <label for="email">Email*:</label><input type="email"  name="email"><br>
+            </form>
         </fieldset>
         <fieldset>
             <legend>Votre demande</legend>
-            <label for="sujet">Sujet*:
-                <select id="demande">
-                    <option value="" selected>Veuillez séléctionner un sujet</option>
-                    <option value="Mes commandes">Mes commandes</option>
-                    <option value="Question sur un produit">Question sur un produit</option>
-                    <option value="Réclamation">Réclamation</option>
-                    <option value="Autres">Autres</option><br>
-            </label>
+            <form>
+                <label for="sujet">Sujet*:
+                    <select id="demande">
+                        <option value="" selected>Veuillez séléctionner un sujet</option>
+                        <option value="Mes commandes">Mes commandes</option>
+                        <option value="Question sur un produit">Question sur un produit</option>
+                        <option value="Réclamation">Réclamation</option>
+                        <option value="Autres">Autres</option><br>
+                </label>
+            </form>
 
             </select><br>
-            <label for="Question">Votre question*:
-                <textarea name="commentaire" rows="3" cols="20"></textarea>
-
-            </label>
-
-
+            <form>
+                <label for="Question">Votre question*:
+                    <textarea name="commentaire" rows="3" cols="20"></textarea>
+                </label>
+            </form>
         </fieldset>
         <input type="checkbox" name="agree" value="agree"> *J'accepte le traitrement informatique de ce formulaire<br>
         <button>Envoyer</button><button>Annuler</button>
 
     </fieldset>
     <div class="footer">
-        <ul type="circle">
+        <ul>
             <li><a href="MentionLegal" title="Mention légales">Mention légales</a></li>
             <li><a href="Horaire" title="Horaires">Horaires</a></li>
             <li><a href="PlanSite" title="Plan du site">Plan du site</a></li>

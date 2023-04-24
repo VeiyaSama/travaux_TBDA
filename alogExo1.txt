@@ -1,0 +1,51 @@
+Exo 1.1
+A=3
+B=4
+
+Exo1.2
+A=2
+B=3
+C=1
+
+Exo1.3
+A=6
+B=2
+
+Exo1.4
+A=13
+B=13
+C=13
+
+Exo1.5
+A=2
+B=2
+
+Moralité = Meme en inversant sa ne fonctionnera pas pour l'inversion car l'un aura perdu sa valeur lors de la nouvelle assignation.
+
+Exo1.6
+
+A<-6
+B<-2
+C<-A
+A<-B
+B<-C
+
+Exo1.7
+
+A<-3
+B<-4
+C<-8
+D<-A
+A<-C
+C<-B
+B<-D
+
+Exo1.8
+
+C="423 12"
+
+
+Exo1.9
+
+C="423 12"
+

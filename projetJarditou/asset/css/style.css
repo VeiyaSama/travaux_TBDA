@@ -133,7 +133,10 @@ h1 {
     max-width: 800px;
     
 }
-
+.tableau{
+    width: 100px;
+    height: 100px;
+}
 a {
     color: aliceblue;
     font-size: large;
