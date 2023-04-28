@@ -1,0 +1,114 @@
+exo5.1
+
+      Ecrire"entrez un nombre entre 1 et 3"
+      TantQue N < 1 ou N > 3
+      Lire N
+      Si N < 1 OU N > 3 alors
+      Ecrire" sasie fausse. recommencez"
+      FinTantQue
+
+exo5.2
+
+      ecrire"entrez un nombre entre 10 et 20"
+      TantQue N < 10 ou N > 20
+      Lire N
+      si N < 10 alors
+      Ecrire "Plus grand !"
+      sinon
+      si N > 20 alors
+      Ecrire "Plus petit !"
+      FinTantQue
+
+exo5.3
+
+      Ecrire "entrez un nombre= 1"
+      Lire 1
+      stop ← 1+10
+      Ecrire "les 10 nombres suivant : 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11"
+      TantQue N < stop
+      N ← N+1
+      Ecrire N
+      FinTantQue
+
+exo5.4
+
+      Ecrire "ecrire un nombre= 1"
+      Lire 1
+      Ecrire "la table de multiplication : 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10"
+      Pour i ← 1 a 10
+        Ecrire N*i
+      i suivant 
+  
+
+exo5.5
+
+      Ecrire "entrez un nombre= 3"
+      Lire 3
+      Som ← 0
+      Pour i ← 1 a N
+      som ← som + i
+      i suivant
+      Ecrire "la somme est = 6"
+ 
+
+exo5.6
+
+      Ecrire "Entrez un nombre= 2"
+      Lire 2
+      F ← 1
+      Pour i ← 2 a N
+      F ← F * i
+      i suivant
+      Ecrire " la fractionelle est = 2"
+ 
+
+exo5.7
+
+      Pour i ← 1 a 20 
+      Ecrire "entrez un nombre"
+      Lire N
+      Si i = 1 ou N > PG alors
+      PG ← N 
+      PG2 ← i
+      FInsi
+      i suivant
+      Ecrire "le nombre le plus grand était " PG
+      Ecrire "Il a été saisi en position numéro" PG2
+
+
+exo5.8
+
+      N ← 1
+      i ← 0
+      PG ← 0
+      TantQue N <> 0 
+      Ecrire "entrez un nombre"
+      Lire N
+      i ← i + 1
+      si i = 1 ou N > PG alors
+      PG ← N 
+      PG2 ← i
+      Finsi
+      FinTantQue
+      Ecrire "le nombre le plus grand était" PG
+      Ecrire "Il a été saisi en position numéro" PG2
+
+exo5.9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

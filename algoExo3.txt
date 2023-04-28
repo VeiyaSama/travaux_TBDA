@@ -1,0 +1,71 @@
+exo3.1
+
+      Ecrire "ecrire un nombre= 15"
+      Lire 15
+      Si 15 > 0 alors
+      Ecrire "ce nombre est positif"
+      Sinon
+      Ecrire "ce nombre est negatif"
+      FinSi
+
+exo3.2
+
+      Ecrire "ecrire deux nombres= 5 et 70"
+      Lire 5 et 70
+      Si (5 > 0 et 70 > 0) ou (5 < 0 et 70 < 0)
+      Ecrire "leurs produit est positif
+      Sinon
+      Ecrire "leurs produit est negatif"
+      FinSi	
+
+exo3.3
+
+      Ecrire "ecrire 3 noms= riri, fifi, lolo)
+      Lire riri, fifi, lolo               
+      Si riri < fifi et fifi < lolo
+      Alors
+      Ecrire "ces noms sont dans l'ordre alphabétique"
+      Sinon
+      Ecrire "ces noms ne sont pas dans l'ordre alphabétique"
+      finSi
+
+exo3.4
+
+      Lire 1
+      Si 1 > 0 alors
+      Ecrire "ce nombre est positif"
+      Sinon
+      Si 1 < 0 alors
+      Ecrire "ce nombre est negatif"
+      Sinon
+      Si 1 = 0 alors
+      Ecrire "ce nombre est nul"
+      finSi
+
+exo3.5
+
+      Si (10 > 0 et 80 > 0) ou (10 < 0 et 80 < 0) alors
+      Ecrire "leurs produits est positif"
+      Sinon
+      Ecrire "leurs produits est negatif"
+      Si 10 = 0 et 80 = 0 alors
+      Ecrire "leurs produits est nul"
+      FinSi
+
+exo3.6
+ 
+      Si 22 >= 6 alors
+      Ecrire "catégorie Poussin"
+      Sinon
+      Si 22 >= 8 alors
+      Ecrire "catégorie Pupille"
+      Sinon
+      Si 22 >= 10 alors
+      Ecrire "catégorie Minime"
+      Sinon
+      Si 22 >= 12 alors
+      Ecrire "catégorie Cadet"
+      FinSi
+
+Oui on le peut , sinon l'informatique servirait a rien :)
+

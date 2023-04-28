@@ -1,0 +1,114 @@
+exo4.1 
+
+      Si Tutu < Toto + 4 et Tata <> "OK" Alors
+      Tutu ← Tutu - 1
+      Sinon
+      Tutu ← Tutu + 1
+      Finsi      
+
+exo4.2
+
+           m ← m+1
+      Si m = 60 alors
+         m ← 0
+         h ← h + 1
+      Sinon
+      Si h = 24 alors
+         h ← 0
+      Ecrire " dans une minute il sera 11h54 "
+
+exo4.3
+
+           s ← s+1
+      Si m= 60 alors
+         m ← 0
+         m ← h+1
+      Sinon
+      Si h= 24 alors
+         h ← 0
+      Sinon
+      Si s= 60 alors
+         s ← 0 
+         m ← m + 1
+      Ecrire" dans une seconde il sera 10h58 et 22 secondes"
+     
+
+exo4.4
+      Ecrire " nombre de photocopie voulue ?" 
+      Lire " nombre de photocopie voulue"
+      (test = 20 )
+      Si 20 <= 10 alors
+        p ← 20 * 0.1
+      Sinon
+      Si 20 <= 30 alors
+        p ← 10 * 0.1 + (20 - 10) * 0.09
+      Sinon
+        p ← 10 * 0.1 + 20 * 0.09 + (20 - 30) * 0.08
+      Ecrire "le prix pour 20 photocopies sera de 1.90€"
+      FinSi
+      
+exo4.5
+
+      Ecrire "ecrire le sexe (M/F)= m"
+      Lire m
+      Ecrire "ecrire l'age= 19"
+      Lire 19
+      1 ← m = > 20
+      2 ← f = (age > 18 et age < 35)
+      Si 1 ou 2 alors
+      Ecrire "imposable"
+      sinon
+      Ecrire "non imposable"
+ 
+exo4.6
+
+
+      1 ← A > 50
+      2 ← B > 50
+      3 ← A >= B
+      4 ← A >= 12.5%
+      Si 1 alors
+      Ecrire "elu au 1er tour"
+      Si 2 ou non 4 alors 
+      Ecrire "eliminé"
+      Si 3 alors
+      Ecrire "ballotage favorable"
+      Sinon
+      Ecrire "ballotage defavorable"
+      FinSi
+
+exo4.7
+      
+      1 ← age >= 25
+      2 ← permis >= 2
+      3 ← assur >= 5
+      Si non1 et non2 alors
+       Si accident = 0 alors
+         situation ← "rouge"
+       Sinon
+         situation ← "refusé"
+      Sinon
+      Si non1 et 2 ou 1 et non2 alors
+       Si accident = 0 alors
+         situation ← "orange"
+        Sinon si accident = 1 alors
+         situation ← "rouge"
+        Sinon 
+         situation ← "refusé"
+      Sinon
+       Si accident = 0 alors
+         situation ← "vert"
+       Sinon si accident = 1 alors
+         situation ← "orange"
+       Sinon si accident = 2 alors
+         situtaion ← "rouge"
+       Sinon
+         situation ← "refusé"
+      Si 3 alors
+        Si situation = "rouge" alors
+          situation ← "orange"
+         Sinon si situation = "orange"
+          Situation ← "vert"
+         Sinon si situation = "vert"
+          situation ← "bleu"
+      Ecrire "votre situation est orange"

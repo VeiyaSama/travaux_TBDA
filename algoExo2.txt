@@ -1,0 +1,26 @@
+exo2.1
+      val= 231
+      double= 462
+
+exo2.2
+
+      Ecrire 50^2
+      Lire 50*50
+      Ecrire 2500
+
+exo2.3
+  
+      Ecrire "prix hors taxe= 50"
+      Lire 50
+      Ecrire "taux de tva = 20%"
+      Lire "prix ttc ← 1 * 50 * (1 * 20%)
+      Ecrire "le prix tout taxe est= 60"
+
+
+exo2.4
+
+      A ← "belle marquise vos beaux yeux me font mourir d'amour"
+      B ← "me font vos yeux beaux mourir belle marquise d'amour"
+      C ← "d'amour mourir me font belle marquise vos beaux yeux"
+      D ← "vos yeux d'amour me font belle marquise mourir"
+
