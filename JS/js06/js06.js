@@ -10,7 +10,7 @@ document.write("Ceci est une chaine de caractère :"+ a);
 
 
 
-e = b--
+e = b--;
 document.write(e);
 
 
