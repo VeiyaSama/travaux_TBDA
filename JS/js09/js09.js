@@ -24,8 +24,7 @@ var str1= ["robert" , "dupont" , "amiens" ,"80000"];
 
 
 n = prompt("Saisissez le numéro représantant l'élément voulu");
-console.log(filter);
-
+n--
 function strtok(str1 , n){
     
     alert((str1[n]));
