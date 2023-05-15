@@ -13,8 +13,8 @@ box = l.indexOf(prenom);
 document.write(prenom+"<br>");
 while(box != -1){
     
-  
-    let prenom = prompt("Veuillez saisir un prenom");
+    l.splice(box,1);
+    prenom = prompt("Veuillez saisir un prenom");
     box = l.indexOf(prenom);
     l.splice(box,1);
     document.write("Hop un prénom de trouver<br>"+prenom+"<br>");

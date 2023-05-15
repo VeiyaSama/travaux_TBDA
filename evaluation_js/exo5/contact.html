@@ -10,55 +10,55 @@
 
 <body>
     <header>
-    <img class="logo" alt="LogoJarditou"
-        src="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/img/jarditou_photos/jarditou_logo.jpg">
-    <div class="header">
-        <ul>
-            <li><a href="index.html" title="Acceuil">Acceuil</a></li>
-            <li><a href="tableau.html" title="Tableau">Tableau</a></li>
-            <li><a href="contact.html" title="Contact">Contact</a></li>
-        </ul>
-    </div>
-</header>
+        <img class="logo" alt="LogoJarditou"
+            src="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/img/jarditou_photos/jarditou_logo.jpg">
+        <div class="header">
+            <ul>
+                <li><a href="index.html" title="Acceuil">Acceuil</a></li>
+                <li><a href="tableau.html" title="Tableau">Tableau</a></li>
+                <li><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
 
     <br><img class="promo" alt="PhotoPromotion"
         src="/home/stagiaire/Bureau/travaux_TBDA/projetJarditou/asset/img/jarditou_photos/promotion.jpg">
     <h1>Contact</h1>
-    
+
     <fieldset>
-        <form>
-            <br><label for="nom">*Ces zones sont obligatoire</label>
-        </form>
+        <form method="get" id="formulaireContact" action="#" name="formulaire">
+            <br><label >*Ces zones sont obligatoire</label>
+        <!-- </form> -->
         <br><br>
         <fieldset>
             <legend>Coordonnées</legend>
-            <form>
+            <!-- <form> -->
                 <label for="nom">Votre Nom*:</label><input type="text" name="nom" id="nom"><br>
                 <span id="nomError"></span>
-                <label for="prénom">Votre Prénom*:</label><input type="text" name="prénom" id="prénom"><br>
+                <label for="prenom">Votre Prénom*:</label><input type="text" name="prénom" id="prenom"><br>
                 <span id="prenomError"></span>
                 <br><label for="sexe">Sexe*:
                     <input type="radio" name="sexe" id="homme"> Homme
-                    <input type="radio" name="sexe"  id="femme"> Femme
+                    <input type="radio" name="sexe" id="femme"> Femme
                 </label><br>
-            </form>
-            <form>
+            <!-- </form> -->
+            <!-- <form> -->
                 <br><label for="date">Date de naissance*:</label><input type="date" name="ddn" id="date"><br>
                 <span id="dateError"></span>
-                <label for="CodeP">Code Postale*:</label><input type="CodeP" name="CodeP" id="CodeP">
+                <label for="codeP">Code Postale*:</label><input type="CodeP" name="CodeP" id="codeP">
                 <span id="codePError"></span>
-                <label for="adrs">Adresse:</label><input type="adresse" name="adrs"><br>
+                <label for="adrs">Adresse:</label><input type="adrs" name="adrs" id="adrs"><br>
                 <span id="adrsError"></span>
-                <label for="ville">Ville:</label><input type="ville"  name="ville"><br>
+                <label for="ville">Ville:</label><input type="ville" name="ville" id="ville"><br>
                 <span id="villeError"></span>
-                <label for="email">Email*:</label><input type="email"  name="email"><br>
+                <label for="email">Email*:</label><input type="email" name="email" id="email"><br>
                 <span id="emailError"></span>
-            </form>
+            <!-- </form> -->
         </fieldset>
         <fieldset>
             <legend>Votre demande</legend>
-            <form>
-                <label for="sujet">Sujet*:
+            <!-- <form> -->
+                <label for="sujet" id ="sujet">Sujet*:
                     <select id="demande">
                         <option value="" selected>Veuillez séléctionner un sujet</option>
                         <option value="Mes commandes">Mes commandes</option>
@@ -66,29 +66,33 @@
                         <option value="Réclamation">Réclamation</option>
                         <option value="Autres">Autres</option><br>
                 </label>
-            </form>
+                <span id="sujetError"></span>
+            <!-- </form> -->
 
             </select><br>
-            <form>
+            <!-- <form> -->
                 <label for="Question">Votre question*:
-                    <textarea name="commentaire" rows="3" cols="20"></textarea>
+                    <textarea name="commentaire" rows="3" cols="20" id="box"></textarea>
+                    <span id="boxError"></span>
                 </label>
-            </form>
+            
         </fieldset>
         <input type="checkbox" name="agree" value="agree"> *J'accepte le traitrement informatique de ce formulaire<br>
-        <button>Envoyer</button><button>Annuler</button>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler">
+    </form>
 
     </fieldset>
     <footer>
-    <div class="footer">
-        <ul>
-            <li><a href="MentionLegal" title="Mention légales">Mention légales</a></li>
-            <li><a href="Horaire" title="Horaires">Horaires</a></li>
-            <li><a href="PlanSite" title="Plan du site">Plan du site</a></li>
-        </ul>
-    </div>
-</footer>
-<script src="script.js"></script>
+        <div class="footer">
+            <ul>
+                <li><a href="MentionLegal" title="Mention légales">Mention légales</a></li>
+                <li><a href="Horaire" title="Horaires">Horaires</a></li>
+                <li><a href="PlanSite" title="Plan du site">Plan du site</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
