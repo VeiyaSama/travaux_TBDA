@@ -35,30 +35,30 @@
             <form>
                 <label for="nom">Votre Nom*:</label><input type="text" name="nom" id="nom"><br>
                 <label for="prénom">Votre Prénom*:</label><input type="text" name="prénom" id="prénom"><br>
-                <br><label for="sexe">Sexe*:
-                    <input type="homme" name="sexe" id="homme"> Homme
-                    <input type="femmme" name="sexe"  id="femme"> Femme
+                <br><label for="sexe" id="genre">Sexe*:
+                    <input  type="text" name="sexe" id="homme"> Homme
+                    <input type="text" name="sexe"  id="femme"> Femme
                 </label><br>
             </form>
             <form>
                 <br><label for="date">Date de naissance*:</label><input type="date" name="ddn" id="date"><br>
-                <label for="CP">Code Postale*:</label><input type="CodeP" name="CodeP" id="CP">
-                <label for="adrss">Adresse:</label><input type="adresse" name="adrss"><br>
-                <label for="ville">Ville:</label><input type="ville"  name="ville"><br>
-                <label for="email">Email*:</label><input type="email"  name="email"><br>
+                <label for="CP">Code Postale*:</label><input type="text" name="CodeP" id="CP">
+                <label for="adrss">Adresse:</label><input type="text" name="adrss" id="adrs"><br>
+                <label for="ville">Ville:</label><input type="text"  name="ville" id="ville"><br>
+                <label for="email">Email*:</label><input type="mail"  name="email" id="mail"><br>
             </form>
         </fieldset>
         <fieldset>
             <legend>Votre demande</legend>
             <form>
-                <label for="sujet">Sujet*:
+                <label for="sujet">Sujet*: </label>
                     <select id="demande">
                         <option value="" selected>Veuillez séléctionner un sujet</option>
                         <option value="Mes commandes">Mes commandes</option>
                         <option value="Question sur un produit">Question sur un produit</option>
                         <option value="Réclamation">Réclamation</option>
                         <option value="Autres">Autres</option><br>
-                </label>
+               
             </form>
 
             </select><br>
